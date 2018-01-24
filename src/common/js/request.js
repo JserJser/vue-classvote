@@ -3,7 +3,6 @@ import storage from 'good-storage'
 
 /* eslint-disable */
 const service = axios.create({
-  // baseURL: 'http://talk.17link.cc/', // api的base_url
   timeout: 5000 // request timeout
 })
 // request interceptor
